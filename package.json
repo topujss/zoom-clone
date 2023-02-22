@@ -1,0 +1,48 @@
+{
+  "name": "react-todo",
+  "description": "Next time always clone this instead of creating a new react app",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.6.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "push": "git add . && git commit -m \"project ongoing\" && git push",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.7.0",
+    "sass": "^1.57.1",
+    "tailwindcss": "^3.2.4"
+  }
+}
